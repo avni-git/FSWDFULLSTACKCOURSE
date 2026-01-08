@@ -2,41 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Full Stack Development Course</title>
+    <title>FSWD Learning Hub</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <!-- Header -->
-    <header>
-        <h1>Full Stack Development Course</h1>
-        <p>Learn Frontend + Backend from Scratch</p>
+    <header class="hero">
+        <h1>Full Stack Web Development</h1>
+        <p>Learn Frontend & Backend with Real Projects</p>
     </header>
 
-    <!-- Navigation -->
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Course</a>
-        <a href="#">Contact</a>
-    </nav>
+    <!-- About Section -->
+    <section class="about">
+        <img src="https://cdn-icons-png.flaticon.com/512/919/919827.png" alt="Web Dev">
+        <div class="about-text">
+            <h2>About the Course</h2>
+            <p>
+                This Full Stack Web Development course helps students build
+                complete web applications using modern tools and technologies.
+            </p>
+            <ul>
+                <li>✔ Beginner Friendly</li>
+                <li>✔ Hands-on Projects</li>
+                <li>✔ Industry Oriented</li>
+            </ul>
+        </div>
+    </section>
 
-    <!-- Main Section -->
-    <section class="content">
-        <h2>What You Will Learn</h2>
-        <ul>
-            <li>HTML, CSS & JavaScript</li>
-            <li>Frontend Frameworks</li>
-            <li>Backend Development</li>
-            <li>Database & APIs</li>
-        </ul>
+    <!-- Technologies Section -->
+    <section class="tech">
+        <h2>Technologies Covered</h2>
+        <div class="cards">
+            <div class="card">HTML & CSS</div>
+            <div class="card">JavaScript</div>
+            <div class="card">Node.js</div>
+            <div class="card">MongoDB</div>
+        </div>
+    </section>
 
-        <button>Enroll Now</button>
+    <!-- Registration Form -->
+    <section class="form-section">
+        <h2>Register Now</h2>
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="password" placeholder="Password" required>
+
+            <select required>
+                <option value="">Select Course</option>
+                <option>Frontend</option>
+                <option>Backend</option>
+                <option>Full Stack</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>© 2025 Full Stack Development Course</p>
+        <p>© 2026 FSWD Learning Hub</p>
     </footer>
 
 </body>
