@@ -1,69 +1,118 @@
-body {
+/* Reset */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+}
+
+/* Body */
+body {
+    background-color: #f4f6f8;
+    color: #333;
 }
 
 /* Header */
-header {
-    background-color: #0d47a1;
+.hero {
+    background: linear-gradient(to right, #1976d2, #42a5f5);
     color: white;
-    padding: 20px;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.about img {
+    width: 150px;
+}
+
+.about-text h2 {
+    margin-bottom: 10px;
+}
+
+.about-text ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.about-text li {
+    margin-bottom: 5px;
+}
+
+/* Technologies */
+.tech {
+    background-color: #ffffff;
+    padding: 50px 20px;
     text-align: center;
 }
 
-/* Navigation */
-nav {
-    background-color: #1565c0;
-    padding: 10px;
-    text-align: center;
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
 }
 
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
+.card {
+    background-color: #e3f2fd;
+    padding: 15px 25px;
+    border-radius: 5px;
     font-weight: bold;
 }
 
-/* Main Content */
-.content {
-    padding: 30px;
+/* Form Section */
+.form-section {
+    padding: 50px 20px;
     text-align: center;
-    background-color: white;
-    margin: 20px;
-    border-radius: 8px;
 }
 
-.content ul {
-    list-style-type: none;
-    padding: 0;
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
-.content li {
-    padding: 8px;
-    font-size: 18px;
-}
-
-/* Button */
-button {
-    background-color: #0d47a1;
-    color: white;
-    padding: 10px 25px;
-    border: none;
-    border-radius: 5px;
+input, select, button {
+    padding: 10px;
     font-size: 16px;
+}
+
+button {
+    background-color: #1976d2;
+    color: white;
+    border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #08306b;
+    background-color: #0d47a1;
 }
 
 /* Footer */
 footer {
-    background-color: #0d47a1;
+    background-color: #222;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
+    margin-top: 40px;
 }
