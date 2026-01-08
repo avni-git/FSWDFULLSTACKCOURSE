@@ -1,126 +1,69 @@
-* {
+body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Segoe UI", sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
 }
 
-/* HERO */
-.hero {
-    position: relative;
-    height: 90vh;
-    background: linear-gradient(rgba(20,60,90,0.9), rgba(20,60,90,0.9)),
-                url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f");
-    background-size: cover;
-    background-position: center;
+/* Header */
+header {
+    background-color: #0d47a1;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-}
-
-/* BADGE */
-.badge {
-    position: absolute;
-    top: 30px;
-    right: 40px;
-    background: linear-gradient(135deg, #7b2ff7, #f107a3);
     padding: 20px;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 12px;
-    font-weight: bold;
-}
-
-/* HERO CONTENT */
-.hero-content {
-    max-width: 700px;
     text-align: center;
 }
 
-.program {
-    letter-spacing: 2px;
-    font-size: 12px;
-    opacity: 0.8;
+/* Navigation */
+nav {
+    background-color: #1565c0;
+    padding: 10px;
+    text-align: center;
 }
 
-.hero-content h1 {
-    font-size: 42px;
-    margin: 15px 0;
-}
-
-.description {
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 30px;
-    opacity: 0.9;
-}
-
-/* BUTTONS */
-.buttons {
-    margin-bottom: 35px;
-}
-
-.btn {
-    padding: 12px 28px;
-    margin: 10px;
+nav a {
+    color: white;
+    margin: 0 15px;
     text-decoration: none;
-    border-radius: 25px;
     font-weight: bold;
 }
 
-.btn.outline {
-    border: 2px solid white;
-    color: white;
-}
-
-.btn.solid {
-    background: #00b3b3;
-    color: white;
-}
-
-/* TIMER */
-.timer {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.timer div h2 {
-    font-size: 28px;
-}
-
-.timer div span {
-    font-size: 12px;
-    opacity: 0.8;
-}
-
-/* INFO SECTION */
-.info {
-    display: flex;
-    justify-content: space-around;
-    padding: 40px 20px;
-    background: #ffffff;
-}
-
-.info-box {
+/* Main Content */
+.content {
+    padding: 30px;
     text-align: center;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
 }
 
-.info-box h3 {
-    font-size: 14px;
-    color: #777;
-    margin-bottom: 10px;
+.content ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.info-box p {
-    font-size: 20px;
-    font-weight: bold;
-    color: #222;
+.content li {
+    padding: 8px;
+    font-size: 18px;
 }
 
-.info-box span {
-    font-size: 13px;
-    color: #777;
+/* Button */
+button {
+    background-color: #0d47a1;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #08306b;
+}
+
+/* Footer */
+footer {
+    background-color: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
